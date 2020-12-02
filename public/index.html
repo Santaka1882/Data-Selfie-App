@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="main.css">
+
+    <title>Data selfie app</title>
+</head>
+<body>
+    <div id="main">
+        <div class="title">
+            <h1>Data Selfie App</h1>
+
+            <div class="nav">
+                <div>
+                    <a href="./">New</a>
+                </div>
+                <div>
+                    <a href="/data">Galery</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="app">
+            <div class="mood">
+                <label for="mood" class="text">Mood:</label>
+                <input type="text" id="mood" placeholder="Enter your mood uwu">
+            </div>
+    
+            <div id="container">
+                <video autoplay="true" id="video" class="media-block"></video>
+                <button id="submit" class="media-block"><img src="img/camera.png" class="camera" width="250"></button>
+                <canvas id="photo" class="media-block"></canvas>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

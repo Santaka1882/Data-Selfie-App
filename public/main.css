@@ -1,0 +1,162 @@
+body {
+    display: flex;
+    background-color: #49B6FF;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    background-color: #F4D35E;
+    border: black solid;
+    border-radius: 6px;
+    flex-grow: .5;
+    margin: 70px auto;
+}
+
+.title {
+    background-color: #ECE8EF;
+    border: black solid;
+    border-radius: 6px;
+    margin: auto;
+    max-width: 60%;
+    margin: 15px;
+}
+
+.app {
+    background-color: #ECE8EF;
+    border: black solid;
+    border-radius: 6px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin: 5px;
+    text-align: center;
+    font-family: 'CreamCake';
+    font-size: 6em;
+}
+
+.nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+
+    margin: auto;
+
+    width: 400px;
+}
+
+.nav div {
+    display: flex;
+    justify-content: center;
+    background-color: #F4D35E;
+    border: 7px #49B6FF solid;
+    width: 100px;
+    margin: 20px;
+    padding: 5px;
+}
+
+a {
+    font-family: 'CreamCake';
+    font-size: 3em;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: black;
+}
+
+.nav div:hover {
+    border-color: #0D3B66;
+}
+
+.coord {
+    display: flex;
+    align-content: space-around;
+}
+
+.text {
+    font-family: 'CreamCake';
+    font-size: 2em;
+}
+
+.mood {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mood {
+    height: 50px;
+    width: 245px;
+    border: 2px solid #49B6FF;
+    background-color: #F4D35E;
+    font-family: 'Fontastique';
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.media-block {
+    background-color: #F4D35E;
+    border: 7px #49B6FF solid;
+    margin: 10px;
+
+    max-width: 400px;
+    max-height: 300px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F4D35E;
+    border: 7px #49B6FF solid;
+    margin: 16px;
+}
+
+.card-mood {
+    font-family: 'Fontastique';
+    font-size: 40px;
+    text-align: center;
+    margin: 5px;
+}
+
+.card-date {
+    font-family: 'Fontastique';
+    font-size: 30px;
+    margin: 5px;
+    text-align: center;
+}
+
+button:hover {
+    border-color: #0D3B66;
+}
+
+@font-face {
+    font-family: "CreamCake";
+    src: url("fonts/CreamCake.ttf");
+}
+
+@font-face {
+    font-family: "Fontastique";
+    src: url("fonts/fontastique.ttf");
+}
