@@ -5,7 +5,6 @@ const Database = require('nedb');
 
 require('dotenv').config();
 
-
 //server init
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Starting server at port: ${PORT}`));
